@@ -100,8 +100,8 @@ async fn main() -> Result<()> {
         .get_matches();
 
     let sats = vec!(
-        Satellite { name: "CUAVA-2", id: "98858" },
-        Satellite { name: "WS-1", id: "98849" },
+        Satellite { name: "CUAVA-2", id: "60527" },
+        Satellite { name: "WS-1", id: "60469" },
     );
 
     let start_date = arguments.value_of("start_date").unwrap_or("2024-08-16");
